@@ -104,20 +104,22 @@ p{
 }
 
 .vb_back{
-    background-image: url("vball_background.jpg");
-    background-size: 1050px 175px;
+    background-image: url("vb_back.jpg");
+    background-size: 1200px 175px;
     background-repeat: no-repeat;
 }
 
 .physio_back{
     background-image: url("physio_back.jpg");
-    background-size: 1100px 200px;
+    box-sizing: border-box;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .coding_back{
     background-image: url("coding_back.jpg");
-    background-size: 1050px 175px;
+    box-sizing: border-box;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
