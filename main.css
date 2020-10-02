@@ -8,7 +8,7 @@
     margin: 1cm 0.7cm 1cm;
 }
 
-/* Background colour of each page individually */
+/* ID Background colour of each page individually */
 body#home{
     background: content-box radial-gradient(white, skyblue);
 }
@@ -25,14 +25,13 @@ body#vb{
     background: content-box radial-gradient(white, violet);
 }
 
-
+/* Navigation bar containers */
 .container{
     display: flex;
     justify-content: space-around;
     margin: 0cm 2cm 0cm;
     background: content-box radial-gradient(whitesmoke, grey);
 }
-
 .box{
     box-sizing: border-box;
     padding: 3px;
@@ -54,11 +53,9 @@ h2{
     font-family:'Sansita Swashed', cursive;
     font-size: 30px;
 }
-
 h4{
     font-family:'Sansita Swashed', cursive;
 }
-
 p{
     font-family: 'Sansita Swashed', cursive;
     font-size: 15px;
@@ -75,12 +72,11 @@ p{
 .red{
     color: rgb(216, 29, 29);
 }
-
+.green{
+    color: rgb(92, 216, 43)
+}
 .center{
     text-align: center;
-}
-.white_background{
-    background-color: whitesmoke 
 }
 .bold{
     font-weight: bold;
@@ -96,11 +92,15 @@ p{
 .small_wide_pic{
     width:20%;
 }
-
 .image_center{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Background classes */
+.white_background{
+    background-color: whitesmoke 
 }
 
 .vb_back{
@@ -117,7 +117,7 @@ p{
 
 .coding_back{
     background-image: url("coding_back.jpg");
-    background-size: 1100px 175px;
+    background-size: 1050px 175px;
     background-repeat: no-repeat;
 }
 
@@ -126,3 +126,26 @@ p{
     padding: 50px;
 }
 
+
+/* Contact Page  */
+label {
+    font-weight: bold;
+    font-size: 16px;
+    font-family:'Sansita Swashed', cursive;
+}
+  
+#submit_button {
+    background-color: rgb(25, 118, 255);
+    height: 30px;
+    width: 20%;
+    color: whitesmoke;
+    font-weight: bold;
+}
+  
+input, textarea {
+    background-color: whitesmoke;
+    color: rgb(25, 118, 255);
+    width: 500px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 2px 2px green;
+}
