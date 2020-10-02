@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sansita+Swashed:wght@300&display=swap'); /*Title font= Pacifico. Writing font= Sansita Swashed  */
+
+/* How close the writing can get to the edge of the page */
+.marginp{
+    margin: 1.5cm 3cm 1.5cm;
+}
+.marginimg{
+    margin: 1cm 0.7cm 1cm;
+}
+
+/* Background colour of each page individually */
+body#home{
+    background: content-box radial-gradient(white, skyblue);
+}
+body#contact{
+    background: content-box radial-gradient(white, rgb(107, 247, 52));
+}
+body#coder{
+    background: content-box radial-gradient(white, rgb(53, 211, 195));
+}
+body#physio{
+    background: content-box radial-gradient(white, rgb(206, 45, 45));
+}
+body#vb{
+    background: content-box radial-gradient(white, violet);
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0cm 2cm 0cm;
+    background: content-box radial-gradient(whitesmoke, grey);
+}
+
+.box{
+    box-sizing: border-box;
+    padding: 3px;
+    width:40%
+}
+
+/* headlines and paragraphs */
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+    font-weight: 300;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 0.5cm 2cm 0.5cm ;
+}
+
+h2{
+    font-family:'Sansita Swashed', cursive;
+    font-size: 30px;
+}
+
+h4{
+    font-family:'Sansita Swashed', cursive;
+}
+
+p{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 15px;
+    color: black;
+}
+
+/* font classes */
+.blue{
+    color: rgb(25, 118, 255);
+}
+.purple{
+    color: rgb(182, 45, 182);
+}
+.red{
+    color: rgb(216, 29, 29);
+}
+
+.center{
+    text-align: center;
+}
+.white_background{
+    background-color: whitesmoke 
+}
+.bold{
+    font-weight: bold;
+}
+
+/* Image classes */
+.small_pic{
+    width:15%;
+}
+.medium_pic{
+    width:35%;
+}
+.small_wide_pic{
+    width:20%;
+}
+
+.image_center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vb_back{
+    background-image: url("vball_background.jpg");
+    background-size: 1050px 175px;
+    background-repeat: no-repeat;
+}
+
+.physio_back{
+    background-image: url("physio_back.jpg");
+    background-size: 1100px 200px;
+    background-repeat: no-repeat;
+}
+
+.coding_back{
+    background-image: url("coding_back.jpg");
+    background-size: 1100px 175px;
+    background-repeat: no-repeat;
+}
+
+.border{
+    box-sizing: border-box;
+    padding: 50px;
+}
+
